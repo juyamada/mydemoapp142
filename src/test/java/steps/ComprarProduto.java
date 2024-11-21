@@ -73,7 +73,7 @@ private AndroidDriver driver;
 
         var lblTituloSecao = driver.findElement(AppiumBy.id("com.saucelabs.mydemoapp.android:id/productTV"));
         assertEquals("Products", lblTituloSecao.getText());
-        
+
         
     }
     @Dado("localizo o <produto> que esta por <preco>")
@@ -107,7 +107,7 @@ private AndroidDriver driver;
     }
 }
 
-//com.saucelabs.mydemoapp.android:id/productTV
+//
 //android.widget.TextView[@content-desc="Product Title" and @text="Sauce Labs Backpack"]
 (//android.widget.TextView[@content-desc="Product Price"])[1]
 //final var finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");var start = new Point(525, 1698);var end = new Point (530, 563);var swipe = new Sequence(finger, 1);
